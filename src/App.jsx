@@ -114,7 +114,7 @@ function App() {
   const buyUpgrade = (upgrade) => {
     const cost = Math.floor(upgrade.baseCost * Math.pow(1.15, upgrade.count));
     
-   const cost = upgrade.cost; {
+   const cost = .cost; {
       setCookies(prev => prev - cost);
       setUpgrades(prev => prev.map(u => {
         if (u.id === upgrade.id) {
