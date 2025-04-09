@@ -112,7 +112,7 @@ function App() {
   };
 
   const buyUpgrade = (upgrade) => {
-    const cost = Math.floor(upgrade.baseCost * Math.pow(1.15, upgrade.count));
+  const cost = Math.floor(upgrade.baseCost * Math.pow(1.15, upgrade.count));
     
     if (cookies >= cost) {
       setCookies(prev => prev - cost);
