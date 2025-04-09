@@ -162,7 +162,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-black text-white p-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4">Cookie Clicker Paladium</h1>
+          <h1 className="text-4xl font-bold mb-4">Mcookie</h1>
           <p className="text-2xl">Cookies: {Math.floor(cookies)}</p>
           <p className="text-lg">Par clic: {clickPower} (Critique: {(critChance * 100).toFixed(1)}%)</p>
           <p className="text-lg">Par seconde: {autoClickPower.toFixed(1)}</p>
