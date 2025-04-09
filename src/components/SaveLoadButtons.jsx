@@ -8,7 +8,7 @@ export function SaveLoadButtons({ gameState, onLoadSave, toast }) {
 
   const handleSave = () => {
     try {
-      downloadSave(gameState, 'paladium_cookie_save.mcookie');
+      downloadSave(gameState, 'save.mcookie');
       toast({
         title: "Sauvegarde réussie !",
         description: "Votre progression a été sauvegardée dans un fichier .mcookie"
