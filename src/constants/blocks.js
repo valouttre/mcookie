@@ -1,6 +1,6 @@
 
 export const BLOCKS = [
-  { id: "grass", name: "Bloc d'Herbe", image: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c7/Grass_Block.png/revision/latest?cb=20230226144250", cost: 0 },
+  { id: "grass", name: "Bloc d'Herbe", image: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c7/Grass_Block.png", cost: 0 },
   { id: "dirt", name: "Bloc de Terre", image: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5d/Dirt.png", cost: 100 },
   { id: "stone", name: "Bloc de Pierre", image: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Stone.png", cost: 200 },
   { id: "cobblestone", name: "Pierre Taillée", image: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Cobblestone.png", cost: 300 },
