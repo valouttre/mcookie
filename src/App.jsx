@@ -143,7 +143,7 @@ function App() {
 
   const buyBlock = (block) => {
     if (cookies >= block.cost) {
-      setCookies(prev => prev - cost);
+     setCookies(prev => prev - block.cost);
       setSelectedBlock(block);
       toast({
         title: "Bloc acheté !",
